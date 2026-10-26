@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>NPOR | Avaliação Lateral</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #F3F6FB;
+      color: #202B43;
+      min-height: 100vh;
+    }
+
+    .faixa {
+      height: 7px;
+      background: linear-gradient(
+        to right,
+        #162C87 20%,
+        #2097D6 20% 40%,
+        #009B59 40% 60%,
+        #DFAD43 60% 80%,
+        #E33236 80%
+      );
+    }
+
+    .container {
+      max-width: 460px;
+      margin: 70px auto;
+      padding: 20px;
+    }
+
+    .cartao {
+      background: white;
+      padding: 38px 25px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 8px 30px
+        rgba(22,44,135,0.08);
+    }
+
+    h1 {
+      color: #162C87;
+      font-size: 38px;
+      letter-spacing: 3px;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      color: #162C87;
+      font-size: 22px;
+      margin-top: 28px;
+    }
+
+    p {
+      color: #66738A;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .sigilo {
+      background: #EDF7F1;
+      padding: 14px;
+      border-radius: 10px;
+      color: #176B42;
+      font-size: 13px;
+      margin: 25px 0;
+    }
+
+    .botao {
+      display: block;
+      background: #162C87;
+      color: white;
+      padding: 17px;
+      border-radius: 11px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px;
+      transition: background 0.2s;
+    }
+
+    .botao:hover {
+      background: #2097D6;
+    }
+
+    .rodape {
+      margin-top: 25px;
+      color: #8A95A8;
+      font-size: 11px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="faixa"></div>
+
+  <div class="container">
+    <div class="cartao">
+
+      <h1>NPOR</h1>
+
+      <p>
+        NÚCLEO DE PREPARAÇÃO DE OFICIAIS DA RESERVA
+      </p>
+
+      <h2>Avaliação Lateral</h2>
+
+      <p>
+        Avalie seus companheiros de forma individual,
+        selecionando um aluno para cada categoria.
+      </p>
+
+      <div class="sigilo">
+        VOTO SECRETO<br>
+        Sua identificação não será solicitada.
+      </div>
+
+      <a class="botao"
+         href="https://script.google.com/macros/s/AKfycbwNyvQILxda2sayBuk3Yb0-U0B_LVTscPd-dhfc_wrD9eT_Sb2xpKM7D15x_AtJ4rizYg/exec">
+        INICIAR AVALIAÇÃO
+      </a>
+
+      <div class="rodape">
+        NPOR | Sistema de Avaliação Lateral
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
